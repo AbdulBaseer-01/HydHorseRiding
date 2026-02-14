@@ -5,7 +5,7 @@ import Nav from "@/components/Nav";
 
 export const metadata: Metadata = {
   title: "HYD HORSE ADVENTURE",
-  description: "BY INFYSA AI",
+  description: "BY AURORA STUDIO-INFYSA",
 };
 
 export default function RootLayout({
