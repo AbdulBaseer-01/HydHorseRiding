@@ -61,7 +61,7 @@ const Nav = () => {
 
       {/* ── Mobile Dropdown Menu ── */}
       <div
-        className={`fixed top-0 left-0 w-screen z-998 bg-[#0c0b09]/95 backdrop-blur-md transition-all duration-400 ease-in-out md:hidden
+        className={`fixed top-0 left-0 w-screen h-screen z-998 bg-[#0c0b09]/95 backdrop-blur-md transition-all duration-400 ease-in-out md:hidden
           ${menuOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-full pointer-events-none'}`}
       >
         <div className="flex flex-col pt-24 pb-10 px-8 gap-1">
